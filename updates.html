@@ -1,0 +1,17 @@
+---
+title: Updates
+layout: default
+permalink: /updates/
+---
+
+<div class="ms-strip">
+  <h1>Updates</h1>
+  {% for post in site.posts %}
+  <div>
+    <h3>{{ post.title }}</h3>
+    <p>Published on {{ post.date | date: '%B %d, %Y' }}</p>
+    <p>{{ post.excerpt | strip_html }}</p>
+    <a href="{{ post.url }}" class="ms-button">Read more</a>
+  </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,11 @@
+---
+layout: frontpage
+---
+
+<div class="ms-strip" style="padding-bottom: 0">
+  <h2>Latest beta updates</h2>
+</div>
+<div class="ms-strip grid-thirds">
+  {% for post in site.posts limit:3 %}{% include postlet.html content=post %}{%
+  endfor %}
+</div>

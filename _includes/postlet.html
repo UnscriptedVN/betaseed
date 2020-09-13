@@ -1,0 +1,30 @@
+<div class="pa-1" style="display: flex; flex-direction: column">
+  <a href="posts/2020/08/22/captains-devlog-july-august-2020/"
+    ><h4 class="ms-strip-margins">{{ include.content.title }}</h4></a
+  >
+  <small class="ms-header-text ms-strip-margins"
+    >Written on {{ include.content.date | date: '%B %d, %Y' }}</small
+  >
+  <p style="flex-grow: 1">{{ include.content.excerpt | strip_html }}</p>
+  <p style="text-align: center">
+    <a class="ms-button" href="{{ include.content.url }}"
+      ><svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="feather feather-book"
+      >
+        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+        <path
+          d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"
+        ></path></svg
+      >Read more</a
+    >
+  </p>
+</div>

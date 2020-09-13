@@ -1,0 +1,12 @@
+<html>
+  {% include head.html %}
+  <div class="ms-beta-container">
+    {% include navbar.html transparent=true%}
+    <div class="ms-strip" style="background-color: transparent; color: inherit">
+      <h1>{{ page.title }}</h1>
+      <p>Published on {{ page.date | date: '%B %d, %Y' }}</p>
+    </div>
+  </div>
+  <main class="ms-body"><div class="ms-strip">{{ content }}</div></main>
+  {% include footer.html %}
+</html>

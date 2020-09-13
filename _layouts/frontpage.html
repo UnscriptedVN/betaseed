@@ -1,0 +1,28 @@
+<html>
+  {% include head.html %}
+  <div class="ms-beta-container">
+    {% include navbar.html transparent=true%}
+    <div class="ms-beta-landing">
+      <h1>Unscripted Playtesting Program</h1>
+      <p>
+        Get insider access to the latest insider builds of Unscripted and test
+        out new features and improvements. Submit feature requests, bug reports,
+        and discuss potential ideas on Discord and GitHub with the development
+        team to help shape Unscripted to its fullest potential.
+      </p>
+      <div class="ms-beta-buttons">
+        <a href="/details/#process" class="ms-button">Get Started</a>
+      </div>
+      <div class="ms-beta-landing-img-container">
+        <img src="/img/playtest.png" id="px-beta" />
+      </div>
+    </div>
+  </div>
+  <main class="ms-body">{{ content }}</main>
+  <script
+    type="text/javascript"
+    src="https://unscriptedvn.dev/assets/js/simpleParallax.min.js"
+  ></script>
+  <script src="/js/frontpage.js"></script>
+  {% include footer.html %}
+</html>

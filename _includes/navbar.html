@@ -1,0 +1,16 @@
+<nav
+  class="ms-navbar-container {% if include.transparent %}transparent{% endif %}"
+>
+  <div class="ms-navbar">
+    <a href="{{ site.baseurl }}/" class="ms-navbar-logo"
+      ><span>Unscripted</span></a
+    >
+    <div class="ms-navbar-mobile_togglable">
+      <ul class="ms-navbar-links">
+        {% for link in site.navigation %}
+        <li><a href="{{ link.link }}">{{ link.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>
