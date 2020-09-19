@@ -1,0 +1,97 @@
+---
+permalink: /releases/release.json
+---
+{
+    "v1.2.4": [
+        "Resolves an issue where the AliceOS desktop could be called infinitely on the call stack.",
+        "Adds argument options via arguments.toml.",
+        "Adds a glossary page in Help with terms and definitions.",
+        "Adds use cases for inventory items in some parts of the game.",
+        "Changes notification toast when an item is received to the game's default, not AliceOS's.",
+        "Removes documented features in Help that don't exist."
+    ],
+    "v1.2.3": [
+        "Resolves an issue where minigame levels with \"collect\" in Basic Mode fail due to incorrect VM code.",
+        "Fixes a couple of minor typos, including pronoun conjugation agreement issues.",
+        "Resolves an issue where attempting to view the license on a read-only file system fails (IOError).",
+        "Adds more details about the different game modes and a preview image.",
+        "Adds new \"Warp Speed\" option to minigame preview animation speeds.",
+        "Adds options to show hidden NadiaVM commands and reduce spacing in VM preview window in Basic Mode.",
+        "Adds an option to forcefully show the editor in Advanced Mode when an existing VM file is present.",
+        "Improves minigame experience by rolling back to last checkpoint if an error occurs during the minigame.",
+        "Prevents minigame overriding between modes by namespacing NadiaVM based on game mode.",
+        "Adds keybinding 'l' to open the Unscripted log file (or select it in the file browser).",
+        "Makes AliceOS Desktop keybind ('d') universally available, not just the game menu or in the quick menu.",
+        "Updates Fira API, which includes fixes for reporting proper list coordinates when calling \"as_list\".",
+        "Increases the font contrast on muted text colors in the game menu.",
+        "Adds message bubble around NVL text in chat history.",
+        "Renames \"John Doe\" on empty saves to \"Foo Bar\" to be gender neutral.",
+        "Removes \"entitlements.plist\" from Windows and Linux builds.",
+        "Adds option to display the chapter number and chapter title when switching to a new chapter.",
+        "Changes some hiding animations of characters to the side instead of the standard hide.",
+        "Changes default tab in Help to About instead of Keyboard.",
+        "Changes RepoHive icon to a flat icon to remain visually consistent.",
+        "Improved new credits screen with condensed spacing.",
+        "Adds keybinding 'Shift+B' to open the bug reporter.",
+        "Replaces \"Back\", \"Hub\", \"Report a Bug\", and \"Quit\" with icon buttons in game menu.",
+        "Moves back button in the game menu to far left.",
+        "Moves bug reporter button in the game menu to far right.",
+        "Fixes alignment of the game menu buttons on the right side.",
+        "Updates bug reporting links to new issue tracking pages on GitHub."
+    ],
+    "v1.2.2": [
+        "Resolves an issue where the minigame preview would crash when calling for world coin list in basic mode.",
+        "Resolves an issue where the advanced mode directory buttons crash on Windows.",
+        "Resolves \"looking around\" repetition in the story.",
+        "Resolves an issue in Chapter 7 where the ambient wave sounds didn't stop after the outlook scene.",
+        "Fixes several typos in the story chapters.",
+        "Changes story lines to better reflect the true nature of the story and to reduce ambiguity.",
+        "Uses Python logging to log game events to (uvn.log).",
+        "Made some interface images sharper via downscaling.",
+        "Added translucency effects to text box.",
+        "Resolves an issue where accessing QuickMail outside of a game session would throw an exception.",
+        "Resolves an issue where the inventory state update would result in mismatched lists (InventoryMismatchError)."
+    ],
+    "v1.2.1": [
+        "Resolves an issue where an error displays after the QuickMail permission alert (no such \"chapter_count\")."
+    ],
+    "v1.2.0": [
+        "Introduces new minigame with scripting support.",
+        "Updates Python packages and dependencies.",
+        "Updates save thumbnails to chapter depictions.",
+        "Updates Discord Rich Presence to show chapter images.",
+        "Expands number of chapters to seven instead of three.",
+        "Includes new chapters (4-7).",
+        "Adds Fira character.",
+        "Redesigns help pages with new About tab and consolidated controls.",
+        "Adds new configuration for builds under-the-hood.",
+        "Introduces new \"start game\" screen with username input, language selection, and pronoun selection.",
+        "Resolves inventory state issues during rollback.",
+        "Streamlines user interface elements.",
+        "Changes monospace font from Fira Code to JetBrains Mono.",
+        "Bundles minigame API documentation.",
+        "Auto creates minigame level files in save directory.",
+        "Adds settings to toggle minigame advanced mode and animation speed.",
+        "Bundles CHANGELOG file with releases.",
+        "Re-implements credits scene with new code style (Kotlin-based)."
+    ],
+    "v1.1.1-demo1": [
+        "Resolves an issue where Windows builds couldn't locate start label.",
+        "Includes new demo license that better explains terms."
+    ],
+    "v1.1.0-demo1": [
+        "Implements ambient sounds into game with volume slider.",
+        "Updates Christina's sprite with alternate outfit and eye color update.",
+        "Rewrites emails in QuickMail app.",
+        "Updates default desktop image in AliceOS.",
+        "Updates save/load slots with more information and delete button."
+    ],
+    "v1.0.1-demo1": [
+        "Resolves an issue where inventory doesn't clear at beginning of game.",
+        "Resolves an issue where item duplication occurs during rollback.",
+        "Re-implements inventory HUD."
+    ],
+    "v1.0.0-demo1": [
+        "Initial release."
+    ]
+}

@@ -1,3 +1,6 @@
+---
+permalink: /releases/developer.json
+---
 {
     "v2.0.0-521b2d5": [
         "Adds new levels to the minigame experience.",

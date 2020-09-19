@@ -6,5 +6,7 @@ navigation:
     link: /details/
   - name: Updates
     link: /updates/
+  - name: Releases
+    link: /releases/
   - name: Reports
     link: "https://github.com/UnscriptedVN/game/issues"

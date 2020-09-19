@@ -12,6 +12,20 @@ layout: default
         updated within 24 hours of a release.
     </p>
 </div>
-<div id="releases" class="ms-strip"></div>
+<div id="releases" class="ms-strip">
+    <div class="releases-selector-tabs">
+        <button onclick="showDeveloperReleaseNotes()" id="btn-beta" class="active">Beta</button><button onclick="showStableReleaseNotes()" id="btn-stable">Release</button>
+    </div>
+    <div id="releases-developer">
+        <p style="text-align:center">
+            Loading developer release information...
+        </p>
+    </div>
+    <div id="releases-stable" class="releases-hide">
+        <p style="text-align:center">
+            Loading stable release information...
+        </p>
+    </div>
+</div>
 <script src="/js/releases.js"></script>
 <script>updateReleases()</script>
