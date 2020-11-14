@@ -1,7 +1,30 @@
----
-permalink: /releases/developer.json
----
 {
+    "Unreleased": [
+        "Resolves some issues around musiclayer commands.",
+        "Converts the 'puzzle' console command to a custom statement."
+    ],
+    "v2.0.0-4c3ea90": [
+        "Replaces the OcellusScript language option with Swift and updates chapters using this language option.",
+        "Resolves an issue where some lines didn't respect the user's preference for pronoun usage.",
+        "Resolves an asset issue where the old splash screen would be displayed instead of the new one.",
+        "Updates several portions of the story with clarifications to resolve inconsistencies and ambiguities.",
+        "Updates the rollback settings UI to a more accurate description with visual aids.",
+        "Removes old settings in place from the minigame classic mode.",
+        "Introduces framework for an adaptive music system built with layers.",
+        "Adds some content for Chapter 11: Encouragement.",
+        "Adds CG content for Chapters 4, 7, 9, and 10."
+    ],
+    "v2.0.0-ed4c706": [
+        "Adds failsafes to re-enable the quick menu and skipping abilities when the minigame crashes, quits, or when loading a save.",
+        "Adds new methods test_input and test_next to run NadiaVM commands in a new instance for testing.",
+        "Resolves collision check failures on minigame levels that don't disable collisions.",
+        "Updates main menu music to the finalized version.",
+        "Resolves an issue where players can accidentally roll back to the name selection screen.",
+        "Resolves some minigame issues by removing one sandbox layer.",
+        "Resolves an issue where running poweron on the same device twice caused unconditional increments and incorrect state creation.",
+        "Resolves an issue where the player's inventory persisted during loading to past or future load files.",
+        "Updates splash screen to new \"Created by Marquis Kurt\" branding."
+    ],
     "v2.0.0-521b2d5": [
         "Adds new levels to the minigame experience.",
         "Updates Discord images and save chapter icons.",
