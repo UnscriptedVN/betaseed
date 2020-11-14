@@ -1,8 +1,7 @@
+---
+permalink: /releases/developer.json
+---
 {
-    "Unreleased": [
-        "Resolves some issues around musiclayer commands.",
-        "Converts the 'puzzle' console command to a custom statement."
-    ],
     "v2.0.0-4c3ea90": [
         "Replaces the OcellusScript language option with Swift and updates chapters using this language option.",
         "Resolves an issue where some lines didn't respect the user's preference for pronoun usage.",
