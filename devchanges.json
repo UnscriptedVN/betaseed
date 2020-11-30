@@ -2,6 +2,23 @@
 permalink: /releases/developer.json
 ---
 {
+    "v2.0.0-734b2f1": [
+        "Resolves some issues around musiclayer commands.",
+        "Converts the 'puzzle' console command to a custom statement.",
+        "Adds Escape key binding to the inventory HUD to close it.",
+        "Resolves an issue where the \"Open More\" icon in the inventory HUD didn't change color with respect to the theme.",
+        "Adds new inventory use display when the player needs to use an item to continue.",
+        "Introduces new accessibility setting for toggling the minigame experience and inventory item interactions.",
+        "Adds brand-new dynamic music tracks to the game.",
+        "Updates the license to account for new game-specific music.",
+        "Deprecates old music tracks that will no longer be used.",
+        "Adds the ability to use musiclayer push without a fadein (by passing \"sharp\" parameter).",
+        "Adds new NadiaVM reference page for the minigame in Settings > Minigame.",
+        "Adds \"help\" command in minigame's interactive mode to open the NadiaVM reference book.",
+        "Partially deprecates/warns players about Python APIs with respect to minigame's advanced mode.",
+        "Updates glossary with \"JVM\" term for Kotlin definitions.",
+        "Resolves issue in Chapter 9 where Kotlin was incorrectly labeled as a JVM-based language."
+    ],
     "v2.0.0-4c3ea90": [
         "Replaces the OcellusScript language option with Swift and updates chapters using this language option.",
         "Resolves an issue where some lines didn't respect the user's preference for pronoun usage.",
