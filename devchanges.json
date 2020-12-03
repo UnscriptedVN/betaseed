@@ -2,6 +2,20 @@
 permalink: /releases/developer.json
 ---
 {
+    "v2.0.0-rc1": [
+        "Updates pull request glossary term to mention alternate names.",
+        "Adds new screen that lets player \"submit\" their game to the store.",
+        "Introduces content for the final chapter, Submission (Chapter 12).",
+        "Moves in-game glossary to the Glossary app instead of the Help menu.",
+        "Removes deprecated audio tracks that will no longer be used.",
+        "Resolves an issue where trying to quit while in the minigame wouldn't show the quit confirmation dialog.",
+        "Resolves an issue where, in some instances, going to a new scene or quitting from the minigame didn't show the quick menu.",
+        "Resolves an issue where pressing the Escape, D, A, H, and TAB keys during the credits causes screen blanking.",
+        "Updates the credits scene to quit the game immediately when pressing the quit keyboard shortcut.",
+        "Hides settings with respect to the \"enable_minigame_adv_mode\" configuration setting in the build config.",
+        "Temporarily suspends the Puzzles app from the list of experiments.",
+        "Temporarily disables the Advanced Mode for the minigame (will resurface in a feature update)."
+    ],
     "v2.0.0-734b2f1": [
         "Resolves some issues around musiclayer commands.",
         "Converts the 'puzzle' console command to a custom statement.",
