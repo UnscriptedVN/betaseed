@@ -2,6 +2,13 @@
 permalink: /releases/developer.json
 ---
 {
+    "v2.0.0-rc2": [
+        "Resolves an issue where the glossary file couldn't load in the Glossary app.",
+        "Resolves an issue where toast notifications may permanently appear.",
+        "Cleans up assets and optimizes file sizes to fit in smaller packages.",
+        "Resolves an issue where the footer in the game menu may appear misaligned with other themes.",
+        "Includes epilogue content for the story when the player's route is Meredith."
+    ],
     "v2.0.0-rc1": [
         "Updates pull request glossary term to mention alternate names.",
         "Adds new screen that lets player \"submit\" their game to the store.",
