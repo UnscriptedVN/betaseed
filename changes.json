@@ -2,6 +2,22 @@
 permalink: /releases/release.json
 ---
 {
+    "v2.0.0": [
+        "Introduces a brand-new, revamped minigame experience with interactivity.",
+        "Updates the existing story to address grammar issues, continuity errors, and general plot problems.",
+        "Moves the glossary to a dedicated AliceOS app for easy access and Help menu clarity.",
+        "Adds visual indicators to scenes where using an item from the inventory is necessary.",
+        "Adds accessibility settings to disable the minigame and inventory interactions.",
+        "Adds support for earning achievements and syncing them on Steam.",
+        "Adds new story content for the multiple endings of the games (full game only).",
+        "Updates the Settings pages with new options and clarifications on existing options.",
+        "Resolves multiple issues around the minigame when attempting to quit the game, go to the main menu, or loading an existing scene.",
+        "Updates the appearance of the game with brand-new themes and font options for dialogue.",
+        "Introduces brand-new music composed by Marek Domaga\u0142a that brings the game to life.",
+        "Improves the backend for the minigame and external APIs.",
+        "Updates iconography for the Mac version to match the style in macOS Big Sur.",
+        "Includes open-source Core package in the demo of the game."
+    ],
     "v1.2.4": [
         "Resolves an issue where the AliceOS desktop could be called infinitely on the call stack.",
         "Adds argument options via arguments.toml.",
