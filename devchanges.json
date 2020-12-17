@@ -2,6 +2,11 @@
 permalink: /releases/developer.json
 ---
 {
+    "v2.0.0": [
+        "Removes AliceOS standard Inventories pop up from Chapter 3.",
+        "Adds support for earning and syncing Steam achievements.",
+        "Adds voice-over line definitions to the game's epilogue on Meredith's route."
+    ],
     "v2.0.0-rc2": [
         "Resolves an issue where the glossary file couldn't load in the Glossary app.",
         "Resolves an issue where toast notifications may permanently appear.",
