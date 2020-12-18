@@ -2,6 +2,10 @@
 permalink: /releases/developer.json
 ---
 {
+    "v2.0.1": [
+        "Adds voice over files for Meredith's epilogue.",
+        "Resolves an issue where the CHANGELOG file could not be located in market or macOS builds."
+    ],
     "v2.0.0": [
         "Removes AliceOS standard Inventories pop up from Chapter 3.",
         "Adds support for earning and syncing Steam achievements.",
