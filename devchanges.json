@@ -2,6 +2,24 @@
 permalink: /releases/developer.json
 ---
 {
+    "v2.1.0-c5654b9": [
+        "Adds configurations and support for the Snap version of the game.",
+        "Introduces Candella fork of AliceOS with new features such as multi-user support and a new desktop.",
+        "Updates Ren'Py SDK to v7.4.2.",
+        "Enables model-based rendering for improved OpenGL effects such as blurring.",
+        "Resolves an issue in the story bootstrapper where some Steam achievements were not properly registered.",
+        "Resolves an issue where the desktop could be prematurely called on the main menu."
+    ],
+    "v2.0.3": [
+        "Resolves an issue where minigame glitch effects wouldn't display properly.",
+        "Resolves several issues surrounding earning Steam achievements.",
+        "Resolves issues surrounding Katorin's route in Chapter 11.",
+        "Resolves multiple typos and grammatical errors in the second half of the story.",
+        "Resolves an issue where the history screen would crash when selecting to call Meredith by her birth name."
+    ],
+    "v2.0.2": [
+        "Resolves an issue where the \"What's New\" screen crashed the main menu due to a missing file."
+    ],
     "v2.0.1": [
         "Adds voice over files for Meredith's epilogue.",
         "Resolves an issue where the CHANGELOG file could not be located in market or macOS builds."
